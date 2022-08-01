@@ -20,10 +20,22 @@ body {
 	height: 120px;
 	padding-top: 40px;
 }
+
+.header__container{
+	width: 1440px; 
+	margin: 0 auto;
+	padding: 0  5px;
+	position: fixed;
+	height: 120px;
+	top: 0px;
+	background-color: #EFEFEF;
+}
+
 .site-nav {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	margin-top: 40px;
 	margin-left:144px;
 	margin-right:144px;
 }
